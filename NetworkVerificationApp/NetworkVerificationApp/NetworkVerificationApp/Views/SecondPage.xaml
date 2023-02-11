@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NetworkVerificationApp.Views.SecondPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout Spacing="6"
+                     VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="CenterAndExpand">
+            <Label Text="Enter the code to play"
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="codeEntry"
+                VerticalOptions="FillAndExpand" 
+                HorizontalOptions="FillAndExpand" />
+
+            <StackLayout Orientation="Horizontal"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand">
+                <Button Text="Back"
+                Clicked="Back_Clicked"/>
+                <Button Text="Submit"
+                Clicked="Submit_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
