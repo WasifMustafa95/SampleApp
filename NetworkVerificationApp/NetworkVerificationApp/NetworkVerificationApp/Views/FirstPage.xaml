@@ -6,8 +6,7 @@
     <ContentPage.Content>
         <StackLayout Spacing="6"
                      VerticalOptions="CenterAndExpand">
-            <Label Text="4CF9"
-                x:Name="codeLabel"
+            <Label x:Name="codeLabel"
                 VerticalOptions="Center" 
                 HorizontalOptions="CenterAndExpand" />
             <Label x:Name="netwrokLabel"
